@@ -1,0 +1,9 @@
+services:
+  etl:
+    build: .
+    volumes:
+      - ./online_retail.csv:/app/online_retail.csv:ro
+      - ./data:/app/data
+      - ./logs:/app/logs
+    command: ["run"]
+

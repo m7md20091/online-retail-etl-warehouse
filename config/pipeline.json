@@ -1,0 +1,14 @@
+{
+  "source_file": "online_retail.csv",
+  "warehouse_file": "data/warehouse/retail.duckdb",
+  "archive_dir": "data/archive",
+  "quality_dir": "data/quality",
+  "export_dir": "data/exports",
+  "log_dir": "logs",
+  "quality_thresholds": {
+    "maximum_rejected_percentage": 1.0,
+    "maximum_duplicate_percentage": 1.0,
+    "minimum_valid_rows": 1
+  }
+}
+

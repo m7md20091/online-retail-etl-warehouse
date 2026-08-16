@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+data/archive/
+data/warehouse/
+data/quality/
+data/exports/
+logs/
+*.duckdb.wal
+online_retail.csv
+*.pdf
+!docs/Online_Retail_Sales_Data_Engineering_Report.pdf
